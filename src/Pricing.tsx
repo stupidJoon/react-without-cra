@@ -98,6 +98,7 @@ function PricingContent() {
               variant="button"
               color="text.primary"
               href="#"
+              underline="none"
               sx={{ my: 1, mx: 1.5 }}
             >
               Features
@@ -106,6 +107,7 @@ function PricingContent() {
               variant="button"
               color="text.primary"
               href="#"
+              underline="none"
               sx={{ my: 1, mx: 1.5 }}
             >
               Enterprise
@@ -114,6 +116,7 @@ function PricingContent() {
               variant="button"
               color="text.primary"
               href="#"
+              underline="none"
               sx={{ my: 1, mx: 1.5 }}
             >
               Support

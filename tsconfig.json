@@ -2,6 +2,6 @@
   "compilerOptions": {
     "strict": true,
     "jsx": "react-jsx",
-    "moduleResolution": "Node"
+    "skipLibCheck": true
   }
 }
