@@ -6,7 +6,6 @@ function App() {
     <>
       <CssBaseline />
       <Index />
-      <h1>test</h1>
     </>
   );
 }

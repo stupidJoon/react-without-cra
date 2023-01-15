@@ -22,11 +22,15 @@ module.exports = {
     ]
   },
   devServer: {
-    hot: true
+    hot: true,
+    allowedHosts: "all",
+    client: {
+      webSocketURL: 'ws://0.0.0.0/ws',
+    }
   },
   plugins: [
     new HtmlWebpackPlugin({
-      template: 'index.html'
+      template: './index.html'
     })
   ]
 }
